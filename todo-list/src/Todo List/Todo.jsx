@@ -48,17 +48,22 @@ const Todo = () => {
               <i
                 className="fa-solid fa-ban"
                 style={{ color: "red" }}
-                onClick={() => deleteItem(id)}></i>
+                onClick={() => deleteItem(id)}
+                title="Remove Item"></i>
             </div>
           );
         })}
       </div>
 
-      <div className="showItem">
-        <button type="submit" id="removeAll" onClick={removeAll}>
-          <span>Remove All</span>
-        </button>
-      </div>
+      {items == 0 ? (
+        ""
+      ) : (
+        <div className="showItem">
+          <button type="submit" id="removeAll" onClick={removeAll}>
+            <span>Remove All</span>
+          </button>
+        </div>
+      )}
     </div>
   );
 };
