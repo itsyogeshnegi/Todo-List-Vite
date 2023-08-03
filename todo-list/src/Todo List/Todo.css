@@ -1,7 +1,7 @@
 .main-div{
     height: 100vh;
     width: 100%;
-    background-color: lightslategray;
+    background-color: rgb(12, 12, 92);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +9,7 @@
 }
 .main-div>h2{
     margin-bottom: 20px;
+    color: white;
 }
 .addItems{
     width: 100%;
@@ -52,6 +53,12 @@ button{
     text-align: center;
     height: 30px;
     border: none;
+}
+#deleteIcon:hover{
+    color: white;
+}
+#deleteIcon{
+    color: rgb(224, 34, 34)
 }
 #removeAll{
     width: 15%;

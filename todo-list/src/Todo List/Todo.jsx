@@ -26,7 +26,7 @@ const Todo = () => {
   return (
     <div className="main-div">
       <>
-        <h2>Add your list here...</h2>
+        <h2>Todo List</h2>
       </>
       <div className="addItems">
         <input
@@ -46,8 +46,8 @@ const Todo = () => {
             <div className="eachItem" key={id}>
               <h3>{elem}</h3>
               <i
-                className="fa-solid fa-ban"
-                style={{ color: "red" }}
+                className="fa-solid fa-delete-left"
+                id="deleteIcon"
                 onClick={() => deleteItem(id)}
                 title="Remove Item"></i>
             </div>
