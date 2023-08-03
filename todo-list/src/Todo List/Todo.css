@@ -1,0 +1,65 @@
+.main-div{
+    height: 100vh;
+    width: 100%;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-div>h2{
+    margin-bottom: 20px;
+}
+.addItems{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.showItem{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eachItem{
+    margin-top: 10px;
+    width: 20%;
+    width: 20%;
+    text-align: center;
+    height: 30px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.eachItem:hover{
+    background-color: purple;
+    color: white;
+}
+input{
+    width: 20%;
+    text-align: center;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+button{
+    width: 2rem;
+    text-align: center;
+    height: 30px;
+    border: none;
+}
+#removeAll{
+    width: 15%;
+    color: whitesmoke;
+    color: black;
+    transition: 0.4s;
+}
+#removeAll:hover{
+    background-color: red;
+    color: white;
+}
