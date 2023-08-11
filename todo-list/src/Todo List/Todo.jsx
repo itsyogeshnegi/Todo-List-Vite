@@ -55,9 +55,7 @@ const Todo = () => {
         })}
       </div>
 
-      {items == 0 ? (
-        ""
-      ) : (
+      {items.length > 1 && (
         <div className="showItem">
           <button type="submit" id="removeAll" onClick={removeAll}>
             <span>Remove All</span>
